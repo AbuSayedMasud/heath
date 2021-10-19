@@ -1,0 +1,46 @@
+{
+    "service": [
+        {
+            "id": 1,
+            "img": "https://i.ibb.co/L1B86zZ/1.jpg",
+            "name": "Dental",
+            "price": 2000,
+            "description": "This dentist treats diagnose and also properly manages your specific needs related to oral health. Again, this includes root canals, gum care, crowns, fillings, preventive education as well as bridge. So, overall care is referred to as general dental care."
+        },
+        {
+            "id": 2,
+            "img": "https://i.ibb.co/7zzPSmH/2.jpg",
+            "name": "Face Surgery",
+            "price": 30000,
+            "description": "Cosmetic facial plastic surgery is surgery meant to enhance visual appearance of the facial structures and features. Common procedures include facelifts, eye lifts, rhinoplasty, chin and cheek implants, liposuction, and procedures to correct facial wrinkles."
+        },
+        {
+            "id": 3,
+            "img": "https://i.ibb.co/9w2fYkY/3.jpg",
+            "name": "Full Body Surgery",
+            "price": 100000,
+            "description": "A full body lift involves the contouring of the entire body, with prime focus on areas such as the buttocks, tummy, thighs, arms, and breasts. Many times, people who have experienced sudden drastic weight loss end up with unsightly loose skin all over their body."
+        },
+        {
+            "id": 4,
+            "img": "https://i.ibb.co/xYcG55k/4.jpg",
+            "name": "Breast Surgery",
+            "price": 10200,
+            "description": "A mastectomy is surgery to remove all breast tissue from a breast as a way to treat or prevent breast cancer. For those with early-stage breast cancer, a mastectomy may be one treatment option."
+        },
+        {
+            "id": 5,
+            "img": "https://i.ibb.co/5ck3dDQ/5.jpg",
+            "name": "Body Massages",
+            "price": 3000,
+            "description": "A body massage involves working and applying pressure on the muscles of the body, on the skin surface. It may be a manual massage or done with machines. Usually, body massage is a structured and systematic procedure of applying tension, motion or vibration, with or without the application of heat"
+        },
+        {
+            "id": 6,
+            "img": "https://i.ibb.co/ggfXr2M/6.jpg",
+            "name": "Home Nursing",
+            "price": 20000,
+            "description": " Home care nursing is providing one-on-one care for patients in their homes. Home nurses assist patients with basic needs such as bathing and dressing, as well as more specialized services such as wound care, medication management, and IV therapy."
+        }
+    ]
+}
