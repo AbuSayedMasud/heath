@@ -9,6 +9,7 @@ import logo from '../../../images/logo.png'
 const Header = () => {
     const { user,logOut} = useAuth()
    
+   
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">

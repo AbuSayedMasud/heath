@@ -1,5 +1,6 @@
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { useState, useEffect } from 'react';
+import { Spinner } from "react-bootstrap";
 
 import initializeAuthentication from './../Pages/Login/Firebase/firebase.init';
 
@@ -14,7 +15,7 @@ const useFirebase = () => {
     const [name, setName] = useState('');
     const [error, setError] = useState('');
     const auth = getAuth();
-// signin using google 
+    // signin using google 
     const signInUsingGoogle = () => {
         setIsLoading(true);
         const googleProvider = new GoogleAuthProvider();
@@ -41,8 +42,13 @@ const useFirebase = () => {
             .then(result => {
                 setUser(result.user);
                 setUserName();
+                window.location.reload();
+            })
+            .catch((error) => {
+                setError(error.message);
             })
             .finally(() => setIsLoading(false));
+        
 
 
 
@@ -67,7 +73,7 @@ const useFirebase = () => {
             .then(result => {
                 setUser(result.user);
             })
-            
+
             .catch((error) => {
                 setError(error.message);
             })
@@ -98,7 +104,7 @@ const useFirebase = () => {
         });
         return () => unsubscribed;
     }, [])
-// logOut
+    // logOut
     const logOut = () => {
         setIsLoading(true);
         signOut(auth)

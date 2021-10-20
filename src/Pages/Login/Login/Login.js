@@ -1,12 +1,13 @@
 // log in form
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link ,useLocation} from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 
 import './Login.css'
 const Login = () => {
     const { signInUsingGoogle, handleEmail, handlePassword, error, processLogIn, user } = useAuth();
-    console.log(signInUsingGoogle);
+    // const location =useLocation();
+    // console.log(location.state?.from);
     return (
         <div className="my-5 container ">
             <div className="form-container">
