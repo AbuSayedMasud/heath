@@ -33,7 +33,7 @@ const Detail = () => {
                                 <div className="col-md-8">
                                     <div className="card-body ">
                                         <h5 className="card-title text-start fs-2 fw-bolder text-info">{single?.name}</h5>
-                                        <p className="card-text text-start text-success">Price : <small className="text-warning">{single?.price}</small></p>
+                                        <p className="card-text text-start text-success">Price : <small className="text-warning">{single?.price} TK</small></p>
                                         <p className="card-text text-start text-secondary">{single?.description}</p>
 
                                     </div>
