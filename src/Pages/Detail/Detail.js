@@ -24,7 +24,7 @@ const Detail = () => {
         <div className="pt-5">
             <div className="container">
                 <div className="row">
-                    <div className="col-8  offset-md-2 ">
+                    <div className="col-8  offset-md-2 offset-sm-2  offset-2">
                         <div className="card mb-3" >
                             <div className="row g-0">
                                 <div className="col-md-4">
