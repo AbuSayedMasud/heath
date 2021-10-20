@@ -1,4 +1,4 @@
-//  service details information
+//  service details information are show here
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -28,13 +28,13 @@ const Detail = () => {
                         <div className="card mb-3" >
                             <div className="row g-0">
                                 <div className="col-md-4">
-                                    <img src={single?.img} className="img-fluid rounded-start" alt="..." />
+                                    <img src={single?.img} className="img-fluid rounded-start h-100" alt="..." />
                                 </div>
                                 <div className="col-md-8">
                                     <div className="card-body ">
-                                        <h5 className="card-title text-start">{single?.name}</h5>
-                                        <p className="card-text text-start">Price : {single?.price}</p>
-                                        <p className="card-text text-start">{single?.description}</p>
+                                        <h5 className="card-title text-start fs-2 fw-bolder text-info">{single?.name}</h5>
+                                        <p className="card-text text-start text-success">Price : <small className="text-warning">{single?.price}</small></p>
+                                        <p className="card-text text-start text-secondary">{single?.description}</p>
 
                                     </div>
                                 </div>

@@ -1,10 +1,11 @@
-// sercies are import here
+// services are import here..
 import React, { useEffect, useState } from 'react';
 import './services.css'
 import Service from '../Service/Service';
 
 const Services = () => {
     const [services, setServices] = useState([]);
+    //use for load data
     useEffect(() => {
         fetch('./services.json')
             .then(res => res.json())

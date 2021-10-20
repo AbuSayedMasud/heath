@@ -1,5 +1,5 @@
 import React from 'react';
-// banner function calling here
+// show the banner of our medina 
 import { Carousel } from 'react-bootstrap';
 import ban1 from '../../../images/banner/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg';
 import ban2 from '../../../images/banner/rudi-fargo-Fx7Q750EphA-unsplash (1).jpg';

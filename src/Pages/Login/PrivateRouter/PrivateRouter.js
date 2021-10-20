@@ -1,4 +1,4 @@
-// private some routing with the PrivateRouter function
+// private some routing .so that user can not access without log in
 import React from 'react';
 import { Spinner } from 'react-bootstrap';
 import { Redirect, Route } from 'react-router';

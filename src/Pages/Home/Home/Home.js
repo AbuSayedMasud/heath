@@ -1,4 +1,4 @@
-// home page in here
+// home page is here
 import React from 'react';
 import Banner from '../Banner/Banner';
 import Doctor from '../Doctor/Doctor';

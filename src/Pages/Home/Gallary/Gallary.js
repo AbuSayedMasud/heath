@@ -1,4 +1,4 @@
-// our images  Gallery
+// our medina images are show here in gallery
 import React from 'react';
 import img1 from '../../../images/Gallary/afro-doctors-consulting-young-adult-hospital-ward.jpg';
 import img2 from '../../../images/Gallary/disabled-senior-woman-having-discussion-with-medical-specialist-about-treatment-hospital-hallway-wearing-face-mask-against-coronavirus.jpg';

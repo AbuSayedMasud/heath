@@ -1,6 +1,6 @@
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { useState, useEffect } from 'react';
-import { Spinner } from "react-bootstrap";
+
 
 import initializeAuthentication from './../Pages/Login/Firebase/firebase.init';
 

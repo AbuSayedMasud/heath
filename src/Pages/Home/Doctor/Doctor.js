@@ -1,4 +1,4 @@
-// doctors information
+// doctors information are show here
 import React from 'react';
 import doc1 from '../../../images/doctor/austin-distel-7bMdiIqz_J4-unsplash.jpg';
 import doc2 from '../../../images/doctor/humberto-chavez-FVh_yqLR9eA-unsplash (1).jpg';
